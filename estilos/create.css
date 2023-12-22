@@ -1,0 +1,154 @@
+/* ESTANDARIZACION */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-register {
+  font-family: "Inter", sans-serif;
+  width: 1023px;
+  margin: 0 auto;
+  top: 180px;
+  left: 208.5px;
+  border-radius: 3px;  
+  display: grid;    
+  align-content: flex-start;
+}
+
+form {
+  width: 827.63px;
+  height: 669.3px;
+  top: 80px;  
+  position: relative;
+}
+
+h1.crear {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49.31px;
+  letter-spacing: 1px; 
+  top: 36px;
+  position: relative;  
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37.57px;
+  letter-spacing: 1px;   
+}
+
+.form-crear > div {
+  width: 70%;
+  margin-top: 100px;  
+}
+
+label {
+  display: inline-block;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 29px;  
+}
+
+form div {
+  margin-bottom: 30px;
+}
+
+select {
+  font-size: 18px;
+  color: #E0E0E0;
+  letter-spacing: 1px;
+  line-height: 30px;
+  margin-left: 19px;
+  border: solid 2px #30343f;
+  border-radius: 6px;
+  width: 243.03px;
+  padding: 7px 10px;
+  background: url('https://api.iconify.design/material-symbols/arrow-drop-down-rounded.svg?width=54') no-repeat center right / contain;
+  content: url('https://api.iconify.design/material-symbols/arrow-drop-down-rounded.svg?width=54');
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+input[type="submit"] {
+  font-size: 14px;
+  line-height: 17px;  
+  color: #ffffff;
+  padding: 14px 23px;
+  background-color: #ff3333;
+  border: none;
+}
+
+input[type="text"] {
+  font-size: 18px;
+  line-height: 30px;
+  border-bottom: 2px solid #ff3333;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 49%;
+}
+
+input[type="password"] {
+  font-size: 20px;
+  line-height: 30px;
+  border-bottom: 2px solid #ff3333;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 49%;  
+}
+
+input[type="checkbox"] {
+  font-size: 50px;
+  line-height: 30px;
+  margin-left: 30px;   
+  font: inherit;
+  color: currentColor;
+  border: 1em solid currentColor;
+  border-radius: 0.15em;  
+}
+
+::placeholder {
+  color: #E0E0E0;
+  opacity: 1; /* Firefox */
+  letter-spacing: 1px;
+}
+
+::-ms-input-placeholder { /* Edge 12 -18 */
+  color: #E0E0E0;
+  letter-spacing: 1px;
+}
+
+.encabezado {  
+  top: 36px;
+  position: relative;
+}
+
+.terminos {  
+  top: 0px;  
+  position: relative;
+  font-size: 18px;
+}
+
+.terminos a { 
+  position: relative;
+  font-size: 18px;
+  text-decoration: none;
+  color: #1D84B5;
+}
+
+.descripcion {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;  
+  border: 1px solid #1F1F1F;  
+  width: 827.63px;
+  height: 194.83px;
+  border-radius: 4px; 
+  padding: 10px;
+  color: #000000;  
+  letter-spacing: 1px;
+}

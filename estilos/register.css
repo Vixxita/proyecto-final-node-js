@@ -1,0 +1,135 @@
+/* ESTANDARIZACION */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-register {
+  font-family: "Inter", sans-serif;
+  width: 1023px;
+  height: 580px;
+  margin: 0 auto;
+  top: 180px;
+  left: 208.5px;
+  border-radius: 3px;  
+  display: grid;    
+  align-content: flex-start;
+}
+
+form {
+  width: 457.2px;
+  height: 292px;
+  top: 95px;
+  left: 292px;
+  position: relative;
+}
+
+h1.register {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49.31px;
+  letter-spacing: 1px;   
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37.57px;
+  letter-spacing: 1px;   
+}
+
+.formulario > div {
+  width: 70%;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+
+label {
+  display: inline-block;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 29px;
+  width: 48%;
+}
+
+form div {
+  margin-bottom: 30px;
+}
+
+input[type="submit"] {
+  font-size: 14px;
+  line-height: 17px;  
+  color: #ffffff;
+  padding: 14px 23px;
+  background-color: #ff3333;
+  border: none;
+}
+
+input[type="text"] {
+  font-size: 18px;
+  line-height: 30px;
+  border-bottom: 2px solid #ff3333;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 49%;
+}
+
+input[type="password"] {
+  font-size: 20px;
+  line-height: 30px;
+  border-bottom: 2px solid #ff3333;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 49%;  
+}
+
+input[type="checkbox"] {
+  font-size: 50px;
+  line-height: 30px;
+  margin-left: 30px;   
+  font: inherit;
+  color: currentColor;
+  border: 1em solid currentColor;
+  border-radius: 0.15em;  
+}
+
+::placeholder {
+  color: #E0E0E0;
+  opacity: 1; /* Firefox */
+  letter-spacing: 1px;
+}
+
+::-ms-input-placeholder { /* Edge 12 -18 */
+  color: #E0E0E0;
+  letter-spacing: 1px;
+}
+
+.encabezado {  
+  top: 36px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.texto-complementario {  
+  top: 56px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.terminos {  
+  top: 16px;  
+  position: relative;
+  font-size: 18px;
+}
+
+.terminos a { 
+  position: relative;
+  font-size: 18px;
+  text-decoration: none;
+  color: #1D84B5;
+}

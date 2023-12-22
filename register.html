@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/register.css">
+    <link rel="stylesheet" href="estilos/header.css">
+    <link rel="stylesheet" href="estilos/footer.css">    
+    <title>Registrarse | Funkoshop</title>
+</head>
+<body>
+
+    <!-- INICIO HEADER -->
+    <header>  
+        <nav class="header-navbar">
+            <div class="header-navbar-container">
+                <a class="header-navbar-logo" href="index.html">
+                    <img src="multimedia/branding/logo_light_horizontal.svg" alt="logo"> 
+                </a>
+                <ul class="header-navbar-nav">
+                    <li class="header-nav-item">
+                        <a class="header-nav-link" href="shop.html">VER TIENDA</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a class="header-nav-link" href="admin.html">ADMIN</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a class="header-nav-link" href="#">SALIR</a>
+                    </li>                    
+                </ul>
+            </div> 
+        </nav>
+    </header>
+<!-- FIN HEADER -->
+
+     
+    <div class="main-register">
+        <div class="encabezado">
+            <h1 class="register">CREA TU CUENTA</h1>
+        </div>        
+        <div class="texto-complementario">
+            <h3>Completa el formulario para ser parte del mundo de los Funkos</h3>
+        </div>
+        <div class="formulario">
+            <form id="reg-form">
+            <div>
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="name" placeholder="John"/>
+            </div>
+            <div>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" placeholder="Doe" />
+              </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="text" id="email" placeholder="johndoe@correo.com"/>
+            </div>
+            <div>
+              <label for="contraseña">Contraseña:</label>
+              <input type="password" id="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;"/>
+            </div>
+            <div>
+              <label for="repetir-contraseña">Repita Contraseña:</label>
+              <input type="password" id="password-again" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;"/>
+            </div>            
+          </form>
+          <div class="terminos">
+            <input type="submit" value="Registrar" id="create-account" class="button"/>
+            <span><input type="checkbox"> Acepto <a href="#">Términos y Condiciones</a></span>  
+        </div>
+        </div>                
+    </div>    
+       
+    <!-- INICIO FOOTER -->
+    <footer>
+        <nav class="footer-navbar">
+            <ul class="footer-navbar-nav">
+                <li class="footer-nav-item">
+                    <a class="footer-nav-link" href="shop.html">SHOP</a>
+                </li>
+                <li class="footer-nav-item">
+                    <a class="footer-nav-link" href="register.html">REGISTRARSE</a>
+                </li>
+                <li class="footer-nav-item">
+                    <a class="footer-nav-link" href="admin.html">INGRESAR</a>
+                </li>
+                <li class="footer-nav-item">
+                    <a class="footer-nav-link" href="#">CONTACTO</a>
+                </li>
+            </ul>
+            <p class="texto-footer">Todos los derechos reservados 2023 - Funkoshop &copy;</p> 
+            <img class="logo-footer" src="multimedia/branding/isotype.svg" alt="logo-funko">
+        </nav>
+    </footer>
+    <!-- FIN FOOTER -->
+
+</body>
+</html>
